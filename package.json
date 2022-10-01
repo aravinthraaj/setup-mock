@@ -1,0 +1,16 @@
+{
+  "name": "setup-mock",
+  "private": true,
+  "workspaces": [
+    "./packages/next-client",
+    "./packages/business-logic"
+  ],
+  "scripts": {
+    "build":"yarn workspaces run build",
+    "next:dev": "yarn workspace @setup-mock/next-client dev",
+    "business:dev": "yarn workspace @setup-mock/business-logic dev"
+  },
+  "devDependencies": {
+
+  }
+}

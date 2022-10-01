@@ -1,0 +1,16 @@
+{
+  "name": "@setup-mock/business-logic",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf /dist > /dev/null",
+    "build": "yarn clean && tsc",
+    "dev": "yarn build --watch"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}

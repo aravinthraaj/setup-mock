@@ -1,0 +1,41 @@
+Arguments: 
+  /home/lukasz/.nvm/versions/node/v16.14.0/bin/node /usr/share/yarn/bin/yarn.js create next-app --typescript
+
+PATH: 
+  /home/lukasz/Downloads/google-cloud-sdk/bin:/home/lukasz/.gvm/bin:/home/lukasz/.zplug/bin:/home/lukasz/.nvm/versions/node/v16.14.0/bin:/home/lukasz/.local/bin:/home/lukasz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lukasz/.fzf/bin:/home/lukasz/go/bin:/home/lukasz/go/packages/bin:/home/lukasz/.gem/ruby/2.7.0/bin:/home/lukasz/Android/Sdk/emulator:/home/lukasz/Android/Sdk/tools:/home/lukasz/Android/Sdk/tools/bin:/home/lukasz/Android/Sdk/platform-tools:/home/lukasz/.yarn/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/projects/aravinthraaj/setup-mock/package.json: Unexpected number in JSON at position 119
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "setup-mock",
+    "private": "true",
+    "workspaces": [
+      "./packages/*"
+    ],
+    "devDependencies": {
+  
+    }
+  }
+  -
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
